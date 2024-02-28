@@ -3,4 +3,6 @@ CREATE TABLE IF NOT EXISTS blog_posts (
     title VARCHAR(255) NOT NULL,
     content TEXT NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    image VARCHAR(255) NOT NULL,
+    author VARCHAR(255) NOT NULL,
 );
