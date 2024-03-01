@@ -1,0 +1,25 @@
+{
+  "name": "lab6-19202",
+  "version": "1.0.0",
+  "description": "blog server",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Estuardo07/Lab6-19202.git"
+  },
+  "author": "Javier H",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Estuardo07/Lab6-19202/issues"
+  },
+  "homepage": "https://github.com/Estuardo07/Lab6-19202#readme",
+  "dependencies": {
+    "express": "^4.18.3",
+    "mysql2": "^3.9.2"
+  }
+}
