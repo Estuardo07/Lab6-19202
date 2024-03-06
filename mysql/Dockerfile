@@ -1,16 +1,5 @@
-FROM ubuntu:latest
-ENV DEBIAN_FRONTEND=noninteractive
-
-RUN apt-get update && \
-    apt-get install -y mysql-server
-
-ENV MYSQL_DATABASE=blog_db
-ENV MYSQL_USER=javier
-ENV MYSQL_PASSWORD=psswrd
-ENV MYSQL_ROOT_PASSWORD=secret
+FROM mysql:8.3
 
 COPY schema.sql /docker-entrypoint-initdb.d/schema.sql
-
-EXPOSE 3306
 
 CMD ["mysqld"]

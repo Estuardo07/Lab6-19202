@@ -79,5 +79,5 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log(`Server listening at http://arpanetos.lol:${port}`)
+  console.log(`Server listening at http://127.0.0.1:${port}`)
 })
