@@ -1,9 +1,12 @@
 import express from 'express'
 import { getAllPosts, createPost, getPostById, updatePost, deletePost } from './db.js'
+import cors from 'cors'
 
 const app = express()
 app.use(express.json())
 const port = 3000
+
+app.use(cors())
 
 app.get('/posts', async (req, res) => {
     try {

@@ -20,6 +20,7 @@
   "homepage": "https://github.com/Estuardo07/Lab6-19202#readme",
   "dependencies": {
     "express": "^4.18.3",
-    "mysql2": "^3.9.2"
+    "mysql2": "^3.9.2",
+    "cors": "^2.8.5"
   }
 }
